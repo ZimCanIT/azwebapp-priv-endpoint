@@ -22,7 +22,7 @@ Aim: deploy an Azure Web App that's securely connected to via private endpoint
 
 ### Deployment
 
-1. **Create `terraform.tfvars` in `az-infra`**
+1. **Create `terraform.tfvars` in `az-infra` directory**
    - Set `vm_admin` and `vm_pwd` for Azure Bastion connection.
 2. **Update `tfm-prereq.ps1`**
    - Change `$storageAccountName` to something unique.
